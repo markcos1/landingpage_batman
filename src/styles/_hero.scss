@@ -1,0 +1,23 @@
+.hero {
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../../src/images/Batman\ wallpaper\ 1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    text-align: center;
+
+    &__content {
+        max-width: 640px;
+        margin-right: 390px;
+
+        &__branding {
+            max-width: 320px;
+            margin: 0 auto 38px;
+        }
+
+        .title--small {
+            margin-bottom: 64px;
+        }
+    }
+}   
