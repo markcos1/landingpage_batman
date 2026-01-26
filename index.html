@@ -39,17 +39,17 @@
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button class="shows__tabs__button">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
                 Em breve
             </button>
-            <button class="shows__tabs__button">
+            <button data-tab-button="mais_populares" class="shows__tabs__button">
                 Mais populares
             </button>
-            <button class="shows__tabs__button">
+            <button data-tab-button="mais_na_warner" class="shows__tabs__button">
                 Mais na Warner
             </button>
         </nav>
-        <ul class="shows__list">
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
                 <img src="./src/images/em_breve/spidey.jpg" alt="spidey">
             </li>
@@ -69,6 +69,47 @@
                 <img src="./src/images/em_breve/willow.jpg" alt="willow">
             </li>
         </ul>
+        <ul data-tab-id="mais_populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./src/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleiro_da_lua">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+            <img src="./src/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+                <li class="shows__list__item">
+                <img src="./src/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+                <li class="shows__list__item">
+                <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+                <li class="shows__list__item">
+                <img src="./src/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
+        <ul data-tab-id="mais_na_warner" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./src/images/mais_no_star_plus/os_simpson.jpg" alt="os_simpsons">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+            <img src="./src/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+                <li class="shows__list__item">
+                <img src="./src/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+                <li class="shows__list__item">
+                <img src="./src/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+                <li class="shows__list__item">
+                <img src="./src/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
     </section>
+    <script src="./src/main.js"></script>
 </body>
 </html>
