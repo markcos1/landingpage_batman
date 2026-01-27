@@ -15,9 +15,11 @@
         }
 
         &__item {
+            list-style: none;
             img {
                 max-width: 100%;
                 border-radius: 4px;
+            
             }
         }
     }
