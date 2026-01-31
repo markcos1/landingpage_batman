@@ -1,4 +1,23 @@
+@use 'variaveis';
+
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corDeFundo;
+
+
+    &--is-hidden {
+        background-color: transparent;
+
+        .header {
+            &__logo, &__links__item:first-child {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+
     &__container {
         padding: 8px 36px;
         display: flex;
@@ -9,13 +28,19 @@
     &__logo {
         max-width: 80px;
         width: 100%;
+        margin: 5px;
     
     }
 
     &__links {
         display: flex;
         &__item {
-
+            margin: 5px;
+            
         }
+    }
+
+    .button{
+        height: 50px;
     }
 }
