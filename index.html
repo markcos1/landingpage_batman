@@ -170,7 +170,10 @@
         </div>
     </section>
     <section class="image-text-section--image-full-width">
-        <img src="./src/images/Batman wallpaper 1920x1080.jpg"Imagem com TV, Computador, tablet e celular">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_celular.png" />
+            <img src="./src/images/Batman wallpaper 1920x1080.jpg" alt="ilustração do batman">
+        </picture>
         <div class="image-text-section--image-full-width__text_container">
             <h2 class="title">Baixe filmes e séries</h2>
             <p class="text--big">
@@ -293,6 +296,6 @@
     </footer>
     
 
-    <script src="./src/main.js"></script>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>
