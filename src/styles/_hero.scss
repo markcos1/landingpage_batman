@@ -9,11 +9,9 @@
     text-align: center;
 
     @media (max-width: 768px) {
-        background-image: url(../../src/images/hero_celular.jpeg);
-        padding-top: calc(50vw + 25px);
-        background-size: contain;
+        background-image: url(../../src/images/Batman\ wallpaper\ 1920x1080.jpg);
+        padding: 5.6vw;   
         background-repeat: no-repeat;
-        margin-top: -55px;
     }
     .button {
         margin-top: 2vw;
@@ -24,12 +22,17 @@
         max-width: 640px;
         margin-right: 390px;
 
+        @media (max-width: 768px) {
+            width: 100%;
+
+        }
+
         &__branding {
             max-width: 320px;
             margin: 0 auto 38px;
 
             @media (max-width: 768px) {
-                max-width: 180px;
+                max-width: 80px;
             }
         }
 
@@ -61,6 +64,12 @@
                 @media (max-width: 768px) {
                 width: 100%;
                 margin-bottom: 24px ;
+
+                img{
+                    width: 66px;
+                    height: 66px;
+                    border-radius: 50%;
+                }
             }
 
                 img {

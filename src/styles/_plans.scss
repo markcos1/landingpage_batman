@@ -1,6 +1,10 @@
 .plans {
     padding: 5.6vw;
 
+    @media (max-width: 768px) {
+            margin-top: 40px ;
+        }
+
     h2 {
         text-align: center;
     }
@@ -12,6 +16,7 @@
 
         @media (max-width: 768px) {
             display: block;
+            margin-top: 10px;
         }
 
         .button {
@@ -24,6 +29,8 @@
             max-width: 380px;
             width: 100%;
             list-style: none;
+
+
 
             &:nth-child(2) {
                 background-image: url(../../src/images/fundo_combo_plus.png);
